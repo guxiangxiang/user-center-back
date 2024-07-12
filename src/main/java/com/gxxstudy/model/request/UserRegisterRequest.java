@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @version 1.0
  */
 @Data
-public class UserRegiestRequest implements Serializable {
+public class UserRegisterRequest implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -19,4 +19,6 @@ public class UserRegiestRequest implements Serializable {
     private String userPassword;
 
     private String checkPassword;
+
+    private String planetCode;
 }
